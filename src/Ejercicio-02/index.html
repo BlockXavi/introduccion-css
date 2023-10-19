@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2: Cascada y especificidad en CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- El título "Título de ejemplo" se muestra en rojo porque se aplica el último estilo definido para los encabezados "h1"-->
+    <h1>Título de ejemplo</h1>
+
+    <div class="container">
+        <p>El párrafo dentro del contenedor tiene un color azul debido a la regla que utiliza el selector de clase
+            "container" seguido del selector "p"</p><br>
+    </div>
+
+    <p class="blue-text">El párrafo con la clase "blue-text" se muestra en verde porque tiene una especificidad
+        mayor que el selector de elemento "p"</p>
+        
+</body>
+
+</html>
