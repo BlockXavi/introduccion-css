@@ -1,0 +1,13 @@
+/* Estilos para el primer párrafo */
+p {
+    background-color: lightcyan;
+}
+
+/* Estilos para el segundo párrafo con la clase destacado*/
+.destacado {
+    border: 3px solid red;
+}
+
+#parrafo-grande {
+    font-size: 24px;
+}
