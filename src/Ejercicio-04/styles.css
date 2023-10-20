@@ -1,0 +1,23 @@
+/* Estilos para el contenedor */
+.flexible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Esilos para los elementos de la lista (li) */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
