@@ -1,0 +1,46 @@
+/* Estilos del contenedor grid-contenedor */
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 60px 60px 60px;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+/* Estilos para los saldos de la cuadrícula */
+.grid-celda {
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Colores de fondo para cada celda */
+.grid-celda:nth-child(1) {
+    background-color: lightcoral;
+}
+.grid-celda:nth-child(2) {
+    background-color:  lightblue;
+}
+.grid-celda:nth-child(3) {
+    background-color:  lightgoldenrodyellow;
+}
+.grid-celda:nth-child(4) {
+    background-color:  pink;
+}
+.grid-celda:nth-child(5) {
+    background-color:  lightgray;
+}
+.grid-celda:nth-child(6) {
+    background-color:  lightsalmon;
+}
+.grid-celda:nth-child(7) {
+    background-color:  greenyellow;
+}
+.grid-celda:nth-child(8) {
+    background-color:  blueviolet;
+}
+.grid-celda:nth-child(9) {
+    background-color:  darkolivegreen;
+}
