@@ -1,0 +1,23 @@
+/* Corrijo los ajustes por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor */
+.box-container {
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    border: 2px solid black;
+    padding: 25px;
+    /* Estilo de sombra alrededor del contenedor */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Estilos para el texto dentro del contenedor */
+.box-container p {
+    /* Efecto de sombra al texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
