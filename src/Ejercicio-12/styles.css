@@ -1,0 +1,39 @@
+/* Estilos para el contenedor 
+y para el contenedor con animaciones*/
+.box {
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    animation: slideRight 2s infinite alternate, colorChange 2s infinite, background-color 2s;
+}
+
+/* Transición para cambiar el color de fondo cuando se pasa el cursor por encima */
+.box:hover {
+    background-color:yellow;
+}
+
+/* Animación para mover el contenedor de izquierda a derecha */
+@keyframes slideRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(300px);
+    }
+}
+
+/* Animación para cambiar el color de fondo en un bucle */
+@keyframes colorChange {
+    33% {
+        background-color:antiquewhite;
+    }
+
+    66% {
+        background-color: #0056b3;
+    }
+
+    100% {
+        background-color:aqua;
+    }
+}
